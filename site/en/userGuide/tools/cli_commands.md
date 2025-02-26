@@ -33,7 +33,7 @@ Connects to Milvus.
 <h3 id="connect">Syntax</h3>
 
 ```shell
-connect [-uri (text)] [-t (text)] [--tlsmode (0|1|2)] [--cert (text)]
+connect [-uri (text)] [-t (text)] [-tls (0|1|2)] [-cert (text)]
 ```
 
 <h3 id="connect">Options</h3>
@@ -43,7 +43,7 @@ connect [-uri (text)] [-t (text)] [--tlsmode (0|1|2)] [--cert (text)]
 | -uri   | --uri     | (Optional) The uri name. The default is "http://127.0.0.1:19530".                                        |
 | -t     | --token   | (Optional) The zilliz cloud apikey or `username:password`. The default is None.                          |
 | -tls   | --tlsmode | (Optional) TLS mode: 0 (No encryption), 1 (One-way encryption), 2 (Two-way encryption). The default is 0 |
-| -t     | --token   | (Optional) Path to the client certificate file. The default is None.                                     |
+| -cert  | --cert    | (Optional) Path to the client certificate file. The default is None.                                     |
 | --help | n/a       | Displays help for using the command.                                                                     |
 
 <h3 id="connect">Example</h3>
