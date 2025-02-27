@@ -33,7 +33,7 @@ Connects to Milvus.
 <h3 id="connect">Syntax</h3>
 
 ```shell
-connect [-uri (text)] [-t (text)] [-tls (0|1|2)] [-cert (text)]
+connect [-uri (text)] [-t (text)] [-tls (0|1)] [-cert (text)]
 ```
 
 <h3 id="connect">Options</h3>
